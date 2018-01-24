@@ -1,0 +1,71 @@
+/* Embedded Fonts */
+
+@font-face{
+	font-family: header;
+	src:url(../fonts/arialbold.ttf);
+}
+@font-face{
+	font-family: subheader;
+	src:url(../fonts/arialitalic.ttf);
+}
+@font-face{
+	font-family: paragraph;
+	src:url(../fonts/arial.ttf);
+}
+
+/* Container Items */
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+#cover {
+	width: 100%;
+	height:50%;
+	background: url("../images/image1.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+}
+
+
+h1{
+	color:gray;
+	font-family: header;
+	font-size: 1.5em;
+	text-align: center;
+	position: absolute;
+	top: 400px;
+}
+h2{
+	color: teal;
+	position: absolute;
+	top:450px;
+	left: 500px;
+	font-family:subheader;
+}
+h3{
+	color: teal;
+	position: absolute;
+	top:450px;
+	left:300px;
+	font-family:subheader;
+
+}
+
+h4{
+	color: teal;
+	position: absolute;
+	top: 450px;
+	left:100px;
+	font-family:subheader;
+}
+
+
+/* Paragraph Styles */
+.text {
+	font-family:'paragraph';
+	font-size: 1em;
+	color: gray;
+	position: absolute;
+	top:550px;
+	column-count: 3;
+}
